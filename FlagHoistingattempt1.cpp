@@ -1,3 +1,4 @@
+// here a man hoists the flag
 #include<stdio.h>
 #include<GL/glut.h>
 #include<math.h>
@@ -231,7 +232,8 @@ void firstLook()
 	
 
 	//green_grass
-	glColor3f(0.0, 0.5, 0.0);
+	// glColor3f(0.0, 0.5, 0.0);
+	glColor3f(0.0, 1.0, 0.0);
 	glBegin(GL_POLYGON);
 	glVertex2f(0.0, 0.0);
 	glVertex2f(0.0, 100.0);
